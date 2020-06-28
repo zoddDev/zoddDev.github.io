@@ -1,0 +1,54 @@
+* {
+    color: #ebdbb2;
+    font-family: Fira Code;
+    vertical-align: center;
+    align-content: center;
+    text-align: center;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+body {
+    background-color: #282828;    
+    background-image: url(../resources/gruvbox-squares.png);
+}
+
+body img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    background-color: #282828;
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 8px 8px #000000b2;
+}
+
+.content {
+    text-align: justify;
+    font-size: medium;
+    background-color: #282828;
+    width: 75%;
+    margin: auto;
+    margin-top: 24px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px #000000b2;
+}
+
+.red { color: #fb4934; }
+.green { color: #b8bb26; }
+.yellow { color: #fabd2f; }
