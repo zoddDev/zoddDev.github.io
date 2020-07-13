@@ -102,6 +102,11 @@ a {
     padding: 3px;
 }
 
+article a {
+    color: #d3869b;;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 a:hover {
     color: #fb4934;
 }
