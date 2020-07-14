@@ -115,3 +115,31 @@ a:hover {
 .green { color: #b8bb26; }
 .yellow { color: #fabd2f; }
 .purple { color: #d3869b; }
+
+@media only screen and (max-width: 600px){
+
+    .container {
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    article {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        width: 100%;
+        border-radius: 0px;
+        font-size: 17px;
+    }
+
+    nav a {
+        font-size: 25px;
+    }
+
+    nav {
+        margin-bottom: 300px;
+    }
+}
