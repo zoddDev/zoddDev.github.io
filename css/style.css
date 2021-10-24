@@ -1,7 +1,18 @@
+:root {
+    --background:   #32302f;
+    --foreground:   #d4be98;
+    --red:          #ea6962;
+    --green:        #a9b665;
+    --yellow:       #e78a4e;
+    --purple:       #d3869b;
+    --blue:         #7daea3;
+}
+
+
 html, body, div, ul, li, a {margin: 0; padding: 0; border: 0;}
 
 * {
-    color: #ebdbb2;
+    color: var(--foreground);
     font-family: Fira Code;
     vertical-align: center;
     align-content: center;
@@ -14,7 +25,7 @@ html, body, div, ul, li, a {margin: 0; padding: 0; border: 0;}
 }
 
 body {
-    background-color: #282828;    
+    background-color: var(--background);    
     background-image: url(../resources/gruvbox-squares.png);
 }
 
@@ -24,7 +35,7 @@ body img {
 }
 
 nav {
-    background-color: #282828;  
+    background-color: var(--background);  
     font-size: 14px;  
     
     position: fixed;
@@ -41,7 +52,7 @@ nav {
 .profile_pic img {
     background: gray;
     width: 10%;
-    border-color: #282828;
+    border-color: var(--background);
     border-radius: 1000px;
     padding: 2px;
 }
@@ -54,26 +65,26 @@ nav {
 section {
     text-align: center;
     font-size: 30px;
-    background-color: #282828;
+    background-color: var(--background);
     width: 75%;
     margin: auto;
     margin-top: 70px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 8px 8px #000000b2;
+    box-shadow: 8px 8px #1f1f1f;
 }
 
 article {
     text-align: justify;
     font-size: medium;
-    background-color: #282828;
+    background-color: #ffffff;
     width: 75%;
     margin: auto;
     margin-top: 24px;
     margin-bottom: 100px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 8px 8px #000000;
+    box-shadow: 8px 8px #1f1f1f;
 }
 
 article img {
@@ -111,10 +122,19 @@ a:hover {
     color: #fb4934;
 }
 
-.red { color: #fb4934; }
-.green { color: #b8bb26; }
-.yellow { color: #fabd2f; }
-.purple { color: #d3869b; }
+.red { color: var(--red); }
+.green { color: var(--green); }
+.yellow { color: var(--yellow); }
+.purple { color: var(--purple); }
+.blue { color: var(--blue); }
+.white { color: var(--foreground); }
+
+.bg-background { background-color: var(--background); }
+.bg-red { background-color: var(--red); }
+.bg-green { background-color: var(--green); }
+.bg-yellow { background-color: var(--yellow); }
+.bg-purple { background-color: var(--purple); }
+.bg-blue { background-color: var(--blue); }
 
 @media only screen and (hover: none) and (pointer: coarse) {
 
