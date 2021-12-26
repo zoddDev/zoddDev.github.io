@@ -163,3 +163,8 @@ a:hover {
         margin-bottom: 300px;
     }
 }
+
+@font-face {
+      font-family: "Fira Code Retina NF";
+      src: url("https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Retina/complete/Fira%20Code%20Retina%20Nerd%20Font%20Complete%20Mono.ttf");
+}
