@@ -13,7 +13,7 @@ html, body, div, ul, li, a {margin: 0; padding: 0; border: 0;}
 
 * {
     color: var(--foreground);
-    font-family: Fira Code;
+    font-family: Inconsolata;
     vertical-align: center;
     align-content: center;
     text-align: center;
